@@ -13,7 +13,7 @@ This project focuses on creating a clean and centered card component using seman
 ### Links
 
 - Live preview: Open [index.html](index.html) in your browser
-- Repository: [GitHub repository](#)
+- Repository: [GitHub repository]([#](https://codyphamquynh.github.io/QR-code-component/))
 
 ## My process
 
