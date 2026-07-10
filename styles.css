@@ -1,0 +1,49 @@
+:root {
+    --white: hsl(0,0%,100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(216, 15%, 48%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    width: min(100%, 320px);/*chiều rộng tối đa bằng 100% nhưng không vượt quá 320px*/
+    padding: 16px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(31, 50, 81, 0.15);/*cho phần tử nổi lên*/
+}
+
+.card-image {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card-title {
+    margin: 24px 16px 16px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.card-description {
+    margin: 0 16px 24px;
+    font-size: 0.94rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    text-align: center;
+    line-height: 1.5;
+}   
